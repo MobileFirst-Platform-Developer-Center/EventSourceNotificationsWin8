@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventSourceNotificationsWin8", "EventSourceNotificationsWin8", "{6CADB3B3-476E-4372-9AC9-33388A99B0FA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "EventSourceNotificationsWin8.Shared", "EventSourceNotificationsWin8\EventSourceNotificationsWin8.Shared\EventSourceNotificationsWin8.Shared.shproj", "{464C7B4D-C99A-4013-93C7-4862E5565EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourceNotificationsWin8.Windows", "EventSourceNotificationsWin8\EventSourceNotificationsWin8.Windows\EventSourceNotificationsWin8.Windows.csproj", "{E518BE54-7879-4B49-AFF0-008B16BA43D8}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		EventSourceNotificationsWin8\EventSourceNotificationsWin8.Shared\EventSourceNotificationsWin8.Shared.projitems*{e518be54-7879-4b49-aff0-008b16ba43d8}*SharedItemsImports = 4
+		EventSourceNotificationsWin8\EventSourceNotificationsWin8.Shared\EventSourceNotificationsWin8.Shared.projitems*{464c7b4d-c99a-4013-93c7-4862e5565ead}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Debug|ARM.Build.0 = Debug|ARM
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Debug|x64.ActiveCfg = Debug|x64
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Debug|x64.Build.0 = Debug|x64
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Debug|x64.Deploy.0 = Debug|x64
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Debug|x86.ActiveCfg = Debug|x86
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Debug|x86.Build.0 = Debug|x86
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Debug|x86.Deploy.0 = Debug|x86
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Release|ARM.ActiveCfg = Release|ARM
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Release|ARM.Build.0 = Release|ARM
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Release|ARM.Deploy.0 = Release|ARM
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Release|x64.ActiveCfg = Release|x64
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Release|x64.Build.0 = Release|x64
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Release|x64.Deploy.0 = Release|x64
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Release|x86.ActiveCfg = Release|x86
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Release|x86.Build.0 = Release|x86
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{464C7B4D-C99A-4013-93C7-4862E5565EAD} = {6CADB3B3-476E-4372-9AC9-33388A99B0FA}
+		{E518BE54-7879-4B49-AFF0-008B16BA43D8} = {6CADB3B3-476E-4372-9AC9-33388A99B0FA}
+	EndGlobalSection
+EndGlobal
