@@ -1,13 +1,20 @@
 IBM MobileFirst Platform Foundation
 ===
-### Sample Name
+### Event Source Notifications in Windows Universal
 
 
 ### Usage
-Follow the instructions in the tutorials listed below.
+Follow the instructions in the tutorial(s) listed below.
 
 ### Tutorials
+**Push Notifications Overview**
+https://developer.ibm.com/mobilefirstplatform/documentation/getting-started-7-1/foundation/notifications/push-notifications-overview/
 
+**Push in Windows Universal**
+https://developer.ibm.com/mobilefirstplatform/documentation/getting-started-7-1/foundation/notifications/push-notifications-overview/push-notification-native-windows-8-applications/
+
+**Event Source in Windows Universal**
+https://developer.ibm.com/mobilefirstplatform/documentation/getting-started-7-1/foundation/notifications/push-notifications-overview/push-notification-native-windows-8-applications/event-source-based-notifications-in-native-windows-8-applications/
 
 ### Supported Levels
 IBM MobileFirst Platform Foundation 7.1
